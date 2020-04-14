@@ -1,13 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It's a toy news reader React App that uses the following API:
+https://github.com/HackerNews/API
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+It uses the `**AXIOS**` package to setup a local services that would fetch :
+- **getStories** => Fetch 500 story IDs from the API mentioned above.
+- **getStoryId** => Fetch a particular story from the API with details on who created it and when was it created in MST time.
